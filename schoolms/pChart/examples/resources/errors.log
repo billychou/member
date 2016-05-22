@@ -1,0 +1,6 @@
+Processing examples : 
+example.addRandomValues.php 
+PHP Warning:  PHP Startup: Invalid library (maybe not a PHP library) 'dynwrapx.dll'  in Unknown on line 0
+example.barcode.php 
+PHP Warning:  PHP Startup: Invalid library (maybe not a PHP library) 'dynwrapx.dll'  in Unknown on line 0
+^C

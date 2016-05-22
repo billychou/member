@@ -1,0 +1,66 @@
+﻿/*
+ * Row highlighting example
+ */
+.ex_highlight #example tbody tr.even:hover, #example tbody tr.even td.highlighted {
+	background-color: #ecdb8e;
+}
+
+.ex_highlight #example tbody tr.odd:hover, #example tbody tr.odd td.highlighted {
+	background-color: #ecdb8e;
+}
+
+.ex_highlight_row #example tr.even:hover {
+	background-color: #ecdb8e;
+}
+
+.ex_highlight_row #example tr.even:hover td.sorting_1 {
+	background-color: #ecdb8e;
+}
+
+.ex_highlight_row #example tr.even:hover td.sorting_2 {
+	background-color: #ecdb8e;
+}
+
+.ex_highlight_row #example tr.even:hover td.sorting_3 {
+	background-color: #ecdb8e;
+}
+
+.ex_highlight_row #example tr.odd:hover {
+	background-color: #ecdb8e;
+}
+
+.ex_highlight_row #example tr.odd:hover td.sorting_1 {
+	background-color: #ecdb8e;
+}
+
+.ex_highlight_row #example tr.odd:hover td.sorting_2 {
+	background-color: #ecdb8e;
+}
+
+.ex_highlight_row #example tr.odd:hover td.sorting_3 {
+	background-color: #ecdb8e;
+}
+
+.ex_highlight_row #example tr.even.row_selected td {
+	background-color: #e5ca50;
+}
+
+.ex_highlight_row #example tr.odd.row_selected td {
+	background-color: #e5ca50;
+}
+
+.flag_edit {
+	background-color: #ecdb8e;
+}
+
+.flag_edit1 {
+	background-color: #ecdb8e;
+}
+
+.flag_edit2 {
+	background-color: #ecdb8e;
+}
+
+.clear {
+	clear: both;
+}

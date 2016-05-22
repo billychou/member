@@ -1,0 +1,1 @@
+var traunits = new Array();traunits[0] = new Array('4','自提','ziti','zt');traunits[1] = new Array('5','顺顺运输或我哟西公司','shunshunyunshuhuowoyoxigongsi','ssyshwyxgs');traunits[2] = new Array('6','test','test','test');traunits[3] = new Array('7','测试运输','ceshiyunshu','csys');traunits[4] = new Array('8','测试','ceshi','cs');

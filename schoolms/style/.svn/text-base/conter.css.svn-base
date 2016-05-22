@@ -1,0 +1,399 @@
+﻿/*整体公共样式*/
+*{margin:0;padding:0;}
+html{overflow-x:hidden; overflow-y:auto; color:#000000;}
+a:link{
+	color:#262626;
+	text-decoration:none;
+}
+a:hover{
+	color:#f00;
+	text-decoration:underline;
+}
+a:active{
+	color:#3333CC;
+	text-decoration:none;
+}
+a:visition{
+	color:#3333CC;
+	text-decoration:none;
+}
+
+img {
+	border:0;
+	margin-right:5px;
+}
+
+/**TOP界面中首页样式   2012.11.27修改增加**/
+.nav-nav{
+	width:100%;
+	height:34px;
+	font-size:12px;
+	line-height:30px;
+	color:#FFF;
+	background:url(../images/nav.png);	
+}
+.nav-left{
+	width:155px;
+	height:34px;
+	background:url(../images/nav-left.png)  ;
+	
+	float:left;
+}
+.nav-right {
+	width:200px;
+	height:23px;
+	position:relative;
+	top:-30px;	
+	float:right;	
+}
+
+
+#nav {
+	padding:0;
+	margin:0;
+	list-style:none;
+	height:30px;
+	position:relative;
+	z-index:0;
+	font-family:arial, verdana, sans-serif;
+	background-image:url(../images/three_0-2.gif);
+	background-repeat: repeat-x;
+	border-bottom:1px #2e7fb4 solid;
+	float:left;
+}
+
+#nav li.top {
+   display:block; 
+   float:left; 
+   height:30px;
+}
+#nav li.top-ss{
+	width:2px;
+	height:34px;
+	float:left;
+}
+
+
+a,img{border:0;}
+/**开始-导航界面样式**/
+
+dl,dd,dt,ul,li{list-style:none; color:#333;}
+a{ text-decoration:none; color:#666;}
+#wenzhang{ width:150px; font-size:12px; margin:2px 0px 0px 2px;}
+#wenzhang dd{ padding-bottom:2px;}
+#wenzhang dd dl dt{ height:30px; line-height:30px; font-weight:bold; border:1px solid #61a2da; font-size:14px; color:#026cb1; padding-left:10px; cursor:pointer; background:url(../images/left-n.png)}
+#wenzhang dd dl dt img{margin-right:10px; width:16px;height:16px; line-height:16px;}
+#wenzhang dd dl dt.open{ background:url(../images/left-n.png)}
+#wenzhang dd dl dd{ border:1px solid #61a2da; border-top:none; padding-bottom:0;}
+#wenzhang li{ line-height:26px; height:26px; border-bottom:1px dotted #61a2da; background:#fff;}
+#wenzhang li a{ padding-left:10px; display:block; height:26px; width:137px; font-family:"宋体";}
+#wenzhang li a:hover{ background:#E8F6FF;color:#329ecc;}
+#wenzhang li.blank{ height:6px; line-height:6px; font-size:0; border:none;}
+.menuClick{ background:#E8F6FF;color:#329ecc;font-weight:600}
+/**结束-导航界面样式**/
+
+/**开始--信息页展示样式**/
+
+/*表格*/
+tr td{ 
+	border:1px solid #52c05f;
+	border-width:1px 0 0 1px;
+	height:24px;
+	margin:2px 0 2px 0;
+	border-collapse:collapse; 
+	color:#535353;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**红色五角星**/
+.hx{ color:#f00;}
+
+/**开始登录页面**/
+/**2012.10.7 增加**/
+.login{
+	width:1000px;
+	height:635px;
+	margin:0 auto;
+	padding:0 auto;
+	background:url(../images/dl-bg.png);	
+	margin-top:40px;
+}
+.dl-top{
+	width:668px;
+	height:142px;
+	position:relative;
+	top:70px;
+	left:160px;
+	display:block;
+	background:url(../images/dl-top.png);
+}
+.dlk{
+	width:321px;
+	height:254px;
+	position:relative;
+	top:160px;
+	left:355px;
+	background:url(../images/dl-login.png);
+}
+.yhm{
+	width:224px;
+	height:120px;
+	line-height:30px;
+	position:relative;
+	top:25px;
+	left:110px;
+	z-index:0;
+}
+
+.yhm input{margin-left:10px;}
+
+/**结束登录页面**/
+
+
+ /**top 样式**/
+.nav-top{
+	width:100%;
+	height:93px;
+	background:url(../images/bgg.png) ;
+}
+.top-left{
+	width:710px;
+	height:93px;
+	float:left;
+	background:url(../images/top-left-bg.png);
+	float:left;
+}
+.top-right{
+	width:484px;
+	height:93px;
+	line-height:130px;
+	font-size:12px;
+	text-align:right;
+	color:#FFF;
+	padding-right:10px;
+	background:url(../images/top-r.png);
+	float:right;
+}
+/**结束TOP样式**/
+
+/**开始左边样式**/
+
+
+
+/**结束左边样式**/
+
+/**信息展示页**/
+fieldset {
+	padding:5px;
+	background:#fff; 
+	width:98%; 
+	border:1px solid #61a2da;
+	 margin:0 auto;
+	 -moz-border-radius:10px;
+	-z-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+fieldset legend {
+	color:#333;
+	font-weight:bold;
+	padding:3px 10px 3px 10px; 
+	font-size:14px;
+}
+
+
+ /**开始整体表格样式**/
+.biaoge{
+	font-size:12px;
+	line-height:23px;
+	border-right:1px solid #99d3fb;
+	border-bottom:1px solid #99d3fb;
+	width:99%;
+	margin:0 auto;
+	margin:5px;
+ }
+ .biaoge-d{
+	font-size:12px;
+	line-height:23px;
+	bor
+der-right:1px solid #99d3fb;
+	border-bottom:1px solid #99d3fb;
+	width:99.8%;
+	margin:0 auto;
+ }
+
+/*表格*/
+.biaoge tr td,.biaoge-d tr td,.zc tr td{ 
+	border:1px solid #99d3fb;
+	border-width:1px 0 0 1px;
+	margin:2px 0 2px 0;
+	border-collapse:collapse; 
+	color:#282828;
+}
+/**表格外框修饰**/
+.zt{
+	width:100%;
+	height:100%;
+}
+.zt-main{
+	width:99.9%;
+	height:28px;
+	color:#333333;
+	background:url(../images/ce.gif);
+	margin-top:5px;	
+}
+.zt-main img { margin:0 auto; }
+.zt-left{
+	width:6px;
+	height:28px;
+	background:url(../images/le.gif);
+	float:left;
+}
+.zt-right{
+	width:6px;
+	height:28px;
+	background:url(../images/ri.gif);
+	float:right;
+}
+.zt-center {
+	width:23%;
+	height:25px;
+	line-height:25px;
+	float:left;
+	font-weight:600;
+	overflow:hidden;
+	font-size:12px;	
+}
+.zt-center img{width:16px; height:13px;margin-top:5px;}
+.zt-c{
+	width:74%;
+	float:left;
+	height:25px;
+	line-height:25px;
+	padding-top:10px;
+
+	text-align:right;	
+}
+.zt-c img{
+	width:10px;
+	height:10px;
+	margin-right:5px;
+}
+.zt-tj{
+	width:10%;
+	height:25px;
+	line-height:25px;
+	float:left;
+	margin-left:450px;
+	padding-top:2px;
+}
+.zt-bottom{
+	width:99.8%;
+	height:27px;
+	line-height:27px;
+	padding-left:5px;
+	margin-top:5px;
+	float:left;
+	font-size:12px;
+	background:url(../images/bg.png);
+}
+.zt-bottom img{
+	float:right;
+	margin-right:15px;
+	border:0;
+}
+.zc img{
+	border:0;
+	margin:0 auto;
+}
+.center{
+	width:99.8%;                                                      
+	border-top:0px;
+	padding-top:5px;
+}		
+
+
+ /**鼠标经过表格行的时候变背景色**/
+.aa{ background-color:#e6f2fb; color:#3366FF;filter: alpha(opacity=50) ; text-align:center;}
+.bb{ background-color:#ffffff; color:#000000;text-align:center; } 
+
+/**单元格居中（背景色）**/
+.center-c{
+	text-align:center;	
+	background:#cce5f5;	
+} 
+
+ /**表格单元格居中**/
+.jz{
+	text-align:center;
+}
+ /**表格单元格居右**/
+.jy{
+	text-align:right;
+	padding-right:5px;
+	background:#c7e1f4;
+}
+
+ /**表格单元格居左**/
+.jz-1{
+	text-align:left;
+	padding-left:5px;
+}
+
+ /**结束整体表格样式**/
+
+
+
+/**表格文本框样式 2013-4-19**/
+.table_wb input,.table_wb select{
+	margin-left:5px;
+	width:150px;
+	height:20px;
+	line-height:20px;
+	border:1px solid #eee;
+}
+.table_wb img{margin-left:5px;}
+
+
+
+
+
+
+
+/**所权所有样式**/
+.bottom{
+	width:100%;
+	height:31px;
+	line-height:30px;
+	font-size:12px; 
+	text-align:center;
+	 padding-top:5px;
+     background:url(../images/copy.png);
+     position:fixed; left:0; bottom:-1px;
+}

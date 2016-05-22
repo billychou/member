@@ -1,0 +1,1 @@
+var drivers = new Array();drivers[0] = new Array('48','赵坤','zhaokun','zk');drivers[1] = new Array('73','张三','zhangsan','zs');drivers[2] = new Array('74','李四','lisi','ls');drivers[3] = new Array('75','测试司机','ceshisiji','cssj');drivers[4] = new Array('76','测试司机2','ceshisiji2','cssj2');

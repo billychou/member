@@ -1,0 +1,121 @@
+@CHARSET "UTF-8";
+*{
+	margin:0px;
+	padding:0px;
+	font-family: "黑体", 'Microsoft YaHei','Songti';
+	border:0px;
+	margin:0px;
+	font-size:14px;
+}
+.middle {
+	
+margin: 0 auto;
+margin-top: 20px;
+}
+img{
+	border:0;
+	text-decoration: none;
+}
+#table{width:600px;border-collapse:collapse;border:1px solid #EEE;font-size:14px;}
+#table th{background:#EEE;border-bottom:1px solid #CCC;padding:4px; text-align:left;}
+#table td{border:1px solid #EEE;padding:4px;}
+.highlight{background-color:#FFFF99;}
+
+.stripe_tb th{background:#B5CBE6; color:#039; line-height:20px; height:30px}
+.stripe_tb td{padding:6px 11px; border-bottom:1px solid #95bce2; vertical-align:top; text-align:center}
+.stripe_tb td *{padding:6px 11px}
+.stripe_tb tr.alt td{background:#ecf6fc} /*这行将给所有偶数行加上背景色*/
+.stripe_tb tr.over td{background:#FEF3D1} /*这个将是鼠标高亮行的背景色*/
+
+.label_css {
+	width: 88px;
+	height: 30px;
+	display: inline-block;
+	margin-left: 15px;
+}
+.area_css{
+	width:600px;
+	height:50px;
+	border:1px solid #ccc;
+	background:#f2f2f2;
+	font:normal 11px/15px arial;
+	padding:6px;
+	color:#333;
+}
+.link_button {
+	background:#F0F0F0 repeat-x;
+	 padding-top:3px;
+	
+	 width:63px;
+	 height:auto;
+	 font-size:10pt;
+	 cursor:hand;
+	 text-align:center;
+	 margin-left: 10px;
+	 text-decoration:none;
+	 padding:5px;
+}
+.submit_button{
+	 background:#F0F0F0 repeat-x;
+	 padding-top:3px;
+	 border-top:1px solid #708090;
+	 border-right:1px solid #708090;
+	 border-bottom:1px solid #708090;
+	 border-left:1px solid #708090; 
+	 width:63px;
+	 height:auto;
+	 font-size:10pt;
+	 cursor:hand;
+	 text-align:center;
+	
+}
+select {
+        position:relative;
+        left:-2px;
+        top:-2px;
+        font-size:12px;
+        width:125px;
+        line-height:18px;border:0px;
+        color:#909993;
+}
+.input_css {
+	border: #c0c0c0 1px solid;
+    font-size: 12px;
+    background-color: #ffffff;
+    width: 115px;
+    height: 20px;
+}
+h1{
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:50px;
+	
+}
+.search_form {
+	background-color: blue;
+}
+.left_mag{
+	margin-left: 14px;
+}
+td {
+	width:260px;
+	height:30px;
+}
+img {
+	width:60px;
+	height:30px;
+}
+tr {
+	white-space:nowrap;
+}
+.user_input{
+	width:37px;
+	background-color:#D8BFD5;
+}
+.user_comment{
+	width:87px;
+}
+#picture_area img {
+	width:400px;
+	height:200px;
+}

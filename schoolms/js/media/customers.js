@@ -1,0 +1,1 @@
+var customers = new Array();customers[0] = new Array('138','田田','tiantian','tt');customers[1] = new Array('139','天天','tiantian','tt');customers[2] = new Array('140','测试','ceshi','cs');customers[3] = new Array('141','测试客户','ceshikehu','cskh');customers[4] = new Array('142','test1','test1','test1');
